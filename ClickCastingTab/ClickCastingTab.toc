@@ -11,8 +11,8 @@
 ## X-License: MIT
 ## X-Category: Interface Enhancements
 
-## X-Curse-Project-ID: 
-## X-Wago-ID: 
+## X-Curse-Project-ID: 695547
+## X-Wago-ID: lQNlWEGe
 
 ClickCastingTab.xml
 Main.lua
