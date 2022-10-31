@@ -1,0 +1,18 @@
+## Interface: 100000
+
+## Title: ClickCastingTab
+## Notes: Adds a tab to the spellbook to quickly open the Click Casting window.
+## Author: Avyiel
+## Version: @project-version@
+## X-Date: @project-date-iso@
+
+## DefaultState: Enabled
+
+## X-License: MIT
+## X-Category: Interface Enhancements
+
+## X-Curse-Project-ID: 
+## X-Wago-ID: 
+
+ClickCastingTab.xml
+Main.lua

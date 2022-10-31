@@ -1,0 +1,15 @@
+package-as: ClickCastingTab
+enable-nolib-creation: no
+
+move-folders:
+    ClickCastingTab/ClickCastingTab: ClickCastingTab
+
+manual-changelog:
+    filename: CHANGELOG.md
+    markup-type: markdown
+
+ignore:
+    - CHANGELOG.md
+    - README.md
+    - .editorconfig
+    - .github
