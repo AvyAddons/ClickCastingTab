@@ -7,6 +7,7 @@ Clicking the tab will open the Click Cast Bindings frame, and clicking it again 
 save the changes.
 
 ## Support & Connect
-- GitHub: [https://github.com/lucasvienna](lucasvienna)
+- GitHub: [https://github.com/AvyAddons](AvyAddons)
 - Twitter: [https://twitter.com/Avyiel7](@Avyiel7)
+- Patreon: [https://patreon.com/avyiel](https://patreon.com/avyiel)
 - PayPal: [https://paypal.me/lvienna](https://paypal.me/lvienna)
