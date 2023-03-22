@@ -1,4 +1,4 @@
-## Interface: 100005
+## Interface: 100007
 
 ## Title: ClickCastingTab
 ## Notes: Adds a tab to the spellbook to quickly open the Click Casting window.
