@@ -1,8 +1,11 @@
 # ClickCastingTab Change Log
 All notable changes to this project will be documented in this file. Be aware that the [Unreleased] features are not yet available in the official tagged builds.
 
-The format is based on [Keep a Changelog](http://keepachangelog.com/) 
-and this project adheres to [Semantic Versioning](http://semver.org/).
+The format is based on [Keep a Changelog](http://keepachangelog.com/) and this project adheres to [Semantic Versioning](http://semver.org/).
+
+## [1.1.2] 2023-03-22
+### Changed
+- Bump TOC to 10.0.7
 
 ## [1.1.1] 2023-01-25
 ### Changed
