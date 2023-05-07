@@ -1,0 +1,16 @@
+{
+  "Lua.diagnostics.globals": [
+    "CreateFrame",
+    "UIParent",
+    "SlashCmdList",
+    "nop",
+    "LootFrame",
+    "GetCursorPosition",
+    "LE_EXPANSION_LEVEL_CURRENT",
+    "LE_EXPANSION_WRATH_OF_THE_LICH_KING",
+    "tostringall",
+    "ERR_INV_FULL",
+    "ERR_ITEM_MAX_COUNT",
+    "ERR_LOOT_ROLL_PENDING"
+  ]
+}
