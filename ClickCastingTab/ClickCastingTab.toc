@@ -1,13 +1,14 @@
-## Interface: 100007
+## Interface: 100100
 
 ## Title: ClickCastingTab
 ## Notes: Adds a tab to the spellbook to quickly open the Click Casting window.
 ## Author: Avyiel
 ## Version: @project-version@
-## X-Date: @project-date-iso@
+## IconTexture: Interface\Icons\trade_engineering
 
 ## DefaultState: Enabled
 
+## X-Date: @project-date-iso@
 ## X-License: MIT
 ## X-Category: Interface Enhancements
 
