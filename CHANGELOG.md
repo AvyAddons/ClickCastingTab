@@ -3,6 +3,11 @@ All notable changes to this project will be documented in this file. Be aware th
 
 The format is based on [Keep a Changelog](http://keepachangelog.com/) and this project adheres to [Semantic Versioning](http://semver.org/).
 
+## [1.2.2] 2023-09-08
+
+### Changed
+- Bump TOC to 10.1.7
+
 ## [1.2.1] 2023-07-15
 
 ### Changed
