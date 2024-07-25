@@ -1,7 +1,16 @@
-# ClickCastingTab Change Log
+# ClickCastingTab Changelog
 All notable changes to this project will be documented in this file. Be aware that the [Unreleased] features are not yet available in the official tagged builds.
 
 The format is based on [Keep a Changelog](http://keepachangelog.com/) and this project adheres to [Semantic Versioning](http://semver.org/).
+
+## [2.0.0] 2024-07-25
+### BREAKING CHANGES
+- This addon no longer works with Dragonflight. The last compatible version is 1.2.6.
+  Version 2.0.0 and onwards is compatible with The War Within.
+
+### Changed
+- Rework the Button to work with the new Spell Book
+- Bump TOC to 11.0, 11.0.2
 
 ## [1.2.6] 2024-05-08
 ### Changed
