@@ -1,21 +1,21 @@
 <Ui xmlns="http://www.blizzard.com/wow/ui/"
-    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-    xsi:schemaLocation="http://www.blizzard.com/wow/ui/ ../../FrameXML/UI.xsd">
-    <CheckButton name="ClickCastingSkillLineTab" inherits="SpellBookSkillLineTabTemplate" parent="SpellBookSideTabsFrame" hidden="false">
-        <Scripts>
-            <OnClick>
-                if InClickBindingMode() then
-                    ClickBindingFrame.SaveButton:Click()
-                else
-                    ToggleClickBindingFrame()
-                end
-            </OnClick>
-            <OnShow>
-                self:SetChecked(InClickBindingMode())
-                self:ClearAllPoints()
-                self:SetPoint("TOPLEFT", _G["SpellBookSkillLineTab" .. GetNumSpellTabs()], "BOTTOMLEFT", 0, -40)
-            </OnShow>
-        </Scripts>
-        <NormalTexture file="Interface\Icons\trade_engineering" />
-    </CheckButton>
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.blizzard.com/wow/ui/ ../../FrameXML/UI.xsd">
+
+	<Button name="ClickCastingToggleButton" inherits="MagicButtonTemplate" text="Click Binding">
+		<Size x="120" y="22" />
+		<Scripts>
+			<OnClick>
+				ToggleClickBindingFrame()
+				self:Hide()
+			</OnClick>
+			<OnEnter>
+				GameTooltip:SetOwner(self, 'ANCHOR_BOTTOM');
+				GameTooltip:SetText("Click Cast Bindings");
+				GameTooltip:AddLine('Click to toggle the Click Cast Bindings mode');
+				GameTooltip:Show();
+			</OnEnter>
+			<OnLeave>GameTooltip:Hide()</OnLeave>
+		</Scripts>
+	</Button>
 </Ui>
