@@ -17,3 +17,7 @@
 
 ClickCastingTab.xml
 Main.lua
+
+#@debug@
+## Version: DEV
+#@end-debug@
