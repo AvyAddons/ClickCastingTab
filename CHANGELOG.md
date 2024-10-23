@@ -3,6 +3,10 @@ All notable changes to this project will be documented in this file. Be aware th
 
 The format is based on [Keep a Changelog](http://keepachangelog.com/) and this project adheres to [Semantic Versioning](http://semver.org/).
 
+## [Unreleased]
+## Changed
+- Bump TOC to 11.0.2, 11.0.5
+
 ## [2.0.0] 2024-07-25
 ### BREAKING CHANGES
 - This addon no longer works with Dragonflight. The last compatible version is 1.2.6.
