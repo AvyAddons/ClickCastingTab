@@ -6,6 +6,7 @@ The format is based on [Keep a Changelog](http://keepachangelog.com/) and this p
 ## [Unreleased]
 ## Changed
 - Bump TOC to 11.0.7
+- Added Category
 
 ## [2.1.0] 2024-12-18
 ## Changed
