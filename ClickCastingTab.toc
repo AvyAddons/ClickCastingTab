@@ -1,7 +1,7 @@
-## Interface: 110105
+## Interface: 110107
 
 ## Title: ClickCastingTab
-## Notes: Adds a tab to the spellbook to quickly open the Click Casting window.
+## Notes: Adds a button to the spellbook to quickly open the Click Casting window.
 ## Author: Avyiel
 ## Version: @project-version@
 ## IconTexture: Interface\Icons\trade_engineering
@@ -31,4 +31,5 @@ Main.lua
 
 #@debug@
 ## Version: DEV
+## AllowAddOnTableAccess: true
 #@end-debug@
