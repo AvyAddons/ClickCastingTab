@@ -1,4 +1,4 @@
-## Interface: 110107
+## Interface: 110107, 110200
 
 ## Title: ClickCastingTab
 ## Notes: Adds a button to the spellbook to quickly open the Click Casting window.
