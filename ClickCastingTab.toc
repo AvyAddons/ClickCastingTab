@@ -1,10 +1,11 @@
-## Interface: 110107, 110200
+## Interface: 110200, 110205
 
 ## Title: ClickCastingTab
 ## Notes: Adds a button to the spellbook to quickly open the Click Casting window.
 ## Author: Avyiel
 ## Version: @project-version@
 ## IconTexture: Interface\Icons\trade_engineering
+
 ## Category-enUS: Action Bars
 ## Category-deDE: Aktionsleisten
 ## Category-esES: Barras de acción
@@ -18,6 +19,9 @@
 ## Category-zhTW: 快捷列
 
 ## DefaultState: Enabled
+#@alpha@
+## OptionalDeps: BugSack, BugGrabber
+#@end-alpha@
 
 ## X-Date: @project-date-iso@
 ## X-License: MIT
