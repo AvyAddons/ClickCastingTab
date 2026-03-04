@@ -2,12 +2,15 @@
 	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
 	xsi:schemaLocation="http://www.blizzard.com/wow/ui/ ../../FrameXML/UI.xsd">
 
-	<Button name="ClickCastingToggleButton" inherits="MagicButtonTemplate" text="Click Binding">
-		<Size x="120" y="22" />
+	<Button name="ClickCastingToggleButton" inherits="TabSystemButtonArtTemplate" text="Click Binding" motionScriptsWhileDisabled="true" hidden="true">
+		<Size x="120" y="32" />
 		<Scripts>
+			<OnLoad>
+				self:SetTabSelected(false)
+				self:HandleRotation()
+			</OnLoad>
 			<OnClick>
 				ToggleClickBindingFrame()
-				self:Hide()
 			</OnClick>
 			<OnEnter>
 				GameTooltip:SetOwner(self, 'ANCHOR_BOTTOM');
