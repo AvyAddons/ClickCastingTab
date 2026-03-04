@@ -1,17 +1,21 @@
 name: Packager
+permissions:
+  contents: write
 
-# we need to let GitHub know _when_ we want to release, typically only when we create a new tag.
-# this will target only tags, and not all pushes to the master branch.
-# this part can be heavily customized to your liking, like targeting only tags that match a certain word,
-# other branches or even pullrequests.
 on:
   push:
+    branches:
+      - main
     tags:
       - "**"
+    paths-ignore:
+      - ".github/**"
 
 jobs:
   release:
     runs-on: ubuntu-latest
+    concurrency:
+      group: packager
 
     env:
       GITHUB_OAUTH: ${{ secrets.GITHUB_TOKEN }}
@@ -20,11 +24,11 @@ jobs:
 
     steps:
       - name: Clone
-        uses: actions/checkout@v4
+        uses: actions/checkout@v5
         with:
           fetch-depth: 0
 
       - name: Package and release
-        uses: BigWigsMods/packager@v2
+        uses: BigWigsMods/packager@v2.5.1
         with:
           args: -g retail

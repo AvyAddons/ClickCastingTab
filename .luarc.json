@@ -1,0 +1,39 @@
+{
+  "$schema": "https://raw.githubusercontent.com/LuaLS/vscode-lua/master/setting/schema.json",
+  "runtime.version": "Lua 5.1",
+  "runtime.builtin": {
+    "basic": "disable",
+    "debug": "disable",
+    "io": "disable",
+    "math": "disable",
+    "os": "disable",
+    "package": "disable",
+    "string": "disable",
+    "table": "disable",
+    "utf8": "disable"
+  },
+  "format.enable": true,
+  "workspace.library": [
+    "~\\.vscode\\extensions\\ketho.wow-api-0.22.3\\Annotations\\Core",
+    "./.libraries/"
+  ],
+  "workspace.ignoreDir": [".vscode", "./.libraries"],
+  "diagnostics.globals": [
+    "_G",
+    "C_Timer",
+    "CreateFrame",
+    "CreateSettingsListSectionHeaderInitializer",
+    "EventRegistry",
+    "FormatPercentage",
+    "GetLocale",
+    "hooksecurefunc",
+    "IsLoggedIn",
+    "MinimalSliderWithSteppersMixin",
+    "Settings",
+    "SlashCmdList",
+    "UIParent",
+    "UnitInVehicle",
+    "UnitOnTaxi",
+    "UnitPowerBarID"
+  ]
+}
