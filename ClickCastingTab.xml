@@ -15,7 +15,11 @@
 			<OnEnter>
 				GameTooltip:SetOwner(self, 'ANCHOR_BOTTOM');
 				GameTooltip:SetText("Click Cast Bindings");
-				GameTooltip:AddLine('Click to toggle the Click Cast Bindings mode');
+				if self:IsEnabled() then
+					GameTooltip:AddLine('Click to toggle the Click Cast Bindings mode');
+				else
+					GameTooltip:AddLine('Click Cast Bindings are currently active');
+				end
 				GameTooltip:Show();
 			</OnEnter>
 			<OnLeave>GameTooltip:Hide()</OnLeave>

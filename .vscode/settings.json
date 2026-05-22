@@ -42,5 +42,11 @@
   },
   "Lua.workspace.library": [
     "~\\.vscode\\extensions\\ketho.wow-api-0.22.3\\Annotations\\Core"
+  ],
+  "xml.fileAssociations": [
+    {
+      "pattern": "**/*.xml",
+      "systemId": "${workspaceFolder}/.libraries/wow-ui-source/Interface/AddOns/Blizzard_SharedXML/UI.xsd"
+    }
   ]
 }
