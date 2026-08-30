@@ -2,7 +2,6 @@ local addonName, addon = ...
 
 -- Globals
 local _G = _G
----@class Button
 local ClickCastingToggleButton = _G.ClickCastingToggleButton -- our frame name, see ClickCastingTab.xml
 local spellBookAddonName = 'Blizzard_PlayerSpells'
 
@@ -36,6 +35,7 @@ addon.eventFrame:SetScript("OnEvent", function(_, event, ...)
 
 			-- Position as a bottom tab next to the existing tabs
 			local tabSystem = PlayerSpellsFrame.TabSystem
+			---@type TabSystemButtonTemplate
 			local lastTab = tabSystem.tabs[#tabSystem.tabs]
 			ClickCastingToggleButton:ClearAllPoints()
 			ClickCastingToggleButton:SetParent(tabSystem)

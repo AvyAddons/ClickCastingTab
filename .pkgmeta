@@ -6,6 +6,7 @@ manual-changelog:
     markup-type: markdown
 
 ignore:
+    - Annotations.lua
     - CHANGELOG.md
     - README.md
     - .editorconfig
