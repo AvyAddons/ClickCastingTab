@@ -2,6 +2,7 @@
 	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
 	xsi:schemaLocation="http://www.blizzard.com/wow/ui/ ../../FrameXML/UI.xsd">
 
+	<!-- The inheritance is deliberate to avoid assigning an ID to our tab -->
 	<Button name="ClickCastingToggleButton" inherits="TabSystemButtonArtTemplate" text="Click Binding" motionScriptsWhileDisabled="true" hidden="true">
 		<Size x="120" y="32" />
 		<Scripts>

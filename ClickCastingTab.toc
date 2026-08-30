@@ -19,8 +19,11 @@
 ## Category-zhTW: 快捷列
 
 ## DefaultState: Enabled
+#@non-alpha@
+## OptionalDeps: EllesmereUI
+#@end-non-alpha@
 #@alpha@
-## OptionalDeps: BugSack, BugGrabber
+## OptionalDeps: BugSack, BugGrabber, EllesmereUI
 #@end-alpha@
 
 ## X-Date: @project-date-iso@

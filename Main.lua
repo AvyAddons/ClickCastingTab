@@ -6,6 +6,9 @@ local _G = _G
 local ClickCastingToggleButton = _G.ClickCastingToggleButton -- our frame name, see ClickCastingTab.xml
 local spellBookAddonName = 'Blizzard_PlayerSpells'
 
+-- Addon API
+-------------------------------------------------------------------------------
+
 --- Disable the tab while the click binding frame is open
 local function OnClickBindingLoaded()
 	local ClickBindingFrame = _G.ClickBindingFrame
@@ -21,6 +24,7 @@ local function OnClickBindingLoaded()
 end
 
 -- Addon Core
+-------------------------------------------------------------------------------
 addon.eventFrame = CreateFrame("Frame", addonName .. "EventFrame", UIParent)
 addon.eventFrame:RegisterEvent("ADDON_LOADED")
 addon.eventFrame:SetScript("OnEvent", function(_, event, ...)
@@ -34,7 +38,7 @@ addon.eventFrame:SetScript("OnEvent", function(_, event, ...)
 			local tabSystem = PlayerSpellsFrame.TabSystem
 			local lastTab = tabSystem.tabs[#tabSystem.tabs]
 			ClickCastingToggleButton:ClearAllPoints()
-			ClickCastingToggleButton:SetParent(PlayerSpellsFrame)
+			ClickCastingToggleButton:SetParent(tabSystem)
 			ClickCastingToggleButton:SetPoint("LEFT", lastTab, "RIGHT", 1, 0)
 			ClickCastingToggleButton:Show()
 
