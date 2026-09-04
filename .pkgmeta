@@ -10,6 +10,7 @@ ignore:
     - CHANGELOG.md
     - README.md
     - .editorconfig
+    - mise.toml
     - .github
     - .gitignore
     - assets/*
