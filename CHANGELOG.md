@@ -16,36 +16,36 @@ The format is based on [Keep a Changelog](http://keepachangelog.com/) and this p
 - Bump TOC to 12.0.5
 
 ## [2.2.4] 2025-10-08
-## Changed
+### Changed
 - Bump TOC to 11.2.5
 
 ## [2.2.3] 2025-08-06
-## Changed
+### Changed
 - Bump TOC to 11.2.0
 
 ## [2.2.2] 2025-07-19
-## Changed
+### Changed
 - Bump TOC to 11.1.7
 
 ## [2.2.1] 2025-04-27
-## Changed
+### Changed
 - Bump TOC to 11.1.5
 
 ## [2.2.0] 2025-02-26
-## Changed
+### Changed
 - Bump TOC to 11.1.0
 - Added Category
 
 ## [2.1.0] 2024-12-18
-## Changed
+### Changed
 - Bump TOC to 11.0.7
 
 ## [2.0.1] 2024-10-23
-## Changed
+### Changed
 - Bump TOC to 11.0.2, 11.0.5
 
 ## [2.0.0] 2024-07-25
-### BREAKING CHANGES
+### Removed
 - This addon no longer works with Dragonflight. The last compatible version is 1.2.6.
   Version 2.0.0 and onwards is compatible with The War Within.
 
