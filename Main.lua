@@ -1,7 +1,6 @@
 local addonName, addon = ...
 
 -- Globals
-local _G = _G
 local ClickCastingToggleButton = _G.ClickCastingToggleButton -- our frame name, see ClickCastingTab.xml
 local spellBookAddonName = 'Blizzard_PlayerSpells'
 
