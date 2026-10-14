@@ -3,6 +3,10 @@ All notable changes to this project will be documented in this file. Be aware th
 
 The format is based on [Keep a Changelog](http://keepachangelog.com/) and this project adheres to [Semantic Versioning](http://semver.org/).
 
+## [Unreleased]
+### Changed
+- Bump TOC to 12.1.5
+
 ## [2.4.0] 2026-08-30
 ### Added
 - Add support for tab system skinning. This allows the addon to be skinned by other addons that leverage the tab system for skinning.
